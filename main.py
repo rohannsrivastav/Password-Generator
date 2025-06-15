@@ -21,7 +21,7 @@ class PasswordResponse(BaseModel):
 
 @app.get("/")
 async def root():
-    return {"message": "Password Generator API", "endpoints": ["/generate", "/docs"]}
+    return {"message": "Password Generator API", "endpoints": ["/generate", "/docs"], "author": "rohan srivastav"}
 
 @app.get("/generate", response_model=PasswordResponse)
 async def generate_password(
