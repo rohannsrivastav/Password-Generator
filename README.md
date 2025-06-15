@@ -1,3 +1,4 @@
+URL - api.password.rohansri.com
 Endpoints:  
   
 GET /generate - Generate password with query parameters  
